@@ -1,0 +1,290 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+}
+#header {
+  width: 100%;
+  height: 84px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+.logo {
+  width: 100px;
+  height: 34px;
+  background-color: #4b1979;
+  position: absolute;
+  left: 136px;
+}
+header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+#card {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 61%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+.bi-arrow-left-short {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 35px;
+}
+.box {
+  position: relative;
+  border-bottom: 2px solid #e5e5e5;
+  padding: 0 0 16px 0;
+  width: 80.1%;
+}
+.box:nth-child(3) {
+  display: none;
+}
+.profil {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  column-gap: 16px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  align-items: center;
+  justify-content: start;
+  padding-left: 15px;
+  margin-bottom: 25px;
+}
+
+.foto-profil{
+  width: 48px;
+height: 48px;
+}
+
+.foto { 
+  width: 78px;
+height: 78px;
+border-radius: 12px;
+}
+.nama-profil p:nth-child(1) {
+  font-size: 14px;
+}
+.nama-profil p:nth-child(2) {
+  font-size: 10px;
+  color: #8a8a8a;
+}
+.data {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.detail-data {
+  display: flex;
+  column-gap: 16px;
+  padding-top: 25px;
+}
+.info {
+  width: 100%;
+}
+.info p:nth-child(1) {
+  font-size: 10px;
+  color: #8a8a8a;
+}
+.date {
+  width: 100%;
+  font-size: 10px;
+  color: #8a8a8a;
+  justify-content: end;
+  display: flex;
+  height: 50px;
+}
+.btnContact-js {
+  display: none;
+}
+.btn {
+  width: 100%;
+  justify-content: end;
+  margin-top: 15px;
+  display: flex;
+  column-gap: 16px;
+  padding-bottom: 16px;
+
+  
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+}
+.btn button {
+  border: 1px solid #7126b5;
+  width: 158px;
+  height: 36px;
+  border-radius: 16px;
+  cursor: pointer;
+
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+
+/* Neutral/05 */
+
+
+}
+.btn button:nth-child(1) {
+  background-color: #fff;
+}
+.btn button:nth-child(2) {
+  position: relative;
+  background-color: #7126b5;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 12px;
+}
+.bi-whatsapp {
+  font-size: 12px;
+}
+@media screen and (max-width: 939px) {
+  .container {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 588px) {
+  .alert {
+    width: 328px;
+  }
+  .box:nth-child(3) {
+    display: flex;
+  }
+  #header {
+    box-shadow: none;
+  }
+  .container {
+    width: 100%;
+  }
+  .box {
+    width: 100%;
+    top: -50px;
+  }
+  .logo {
+    display: none;
+  }
+  .bi-arrow-left-short {
+    top: -106.5px;
+    left: 10px;
+  }
+  .btn {
+    justify-content: center;
+  }
+  .info {
+    width: 150%;
+  }
+}
+
+
+.back-arrow2 {
+  margin-top: 40px;
+  margin-left: 236px;
+  width: 24px;
+  height: 24px;
+}
+
+/* Index model CSS */
+
+.modal-content{
+
+  border-radius: 16px;
+  align-items: center;
+  justify-content:start;
+  padding-left: 15px;
+  margin-bottom: 25px;
+  width: 320px;
+height: 456px;
+column-gap: 16px;
+
+
+/* Body/14/Medium */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+color: #000000
+}
+
+.btn-hubungiwa{ 
+  border: 1px solid #7126b5;
+  background-color:#7126b5;
+height: auto;
+  width: max-content;
+  border-radius: 16px;
+  color:#fff;
+  text-align: center;
+}
+
+.btn-hubungiwa:hover { 
+  color:#fff
+}
+
+.profil-penawaran{
+  
+  width: 100%;
+  height: 130px;
+  display: flex;
+  column-gap: 16px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  align-items: center;
+  justify-content: start;
+  padding-left: 15px;
+  margin-bottom: 25px;
+  background-color: #EEEEEE;
+}
+
+.nama-profilpenawaran p:nth-child(3) {
+  font-size: 10px;
+  color: #8a8a8a;
+  margin-bottom: 20px;
+}
+
+.yeay-berhasil p:nth-child(1) {
+  color:#000000;
+  font-size: 15px;;
+}
+
+.yeay-berhasil p:nth-child(2) {
+  color: #8a8a8a;
+  font-size: 15px;;
+}
+
+.judul { 
+text-align: center;
+}

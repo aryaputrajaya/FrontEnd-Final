@@ -1,0 +1,9 @@
+.kategori {
+  margin-left: 136px;
+  background-color: aqua;
+}
+
+.kategori a {
+  font-weight: 700;
+  font-size: 16px;
+}
